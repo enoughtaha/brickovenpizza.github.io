@@ -1,0 +1,250 @@
+
+
+@media only screen and (max-device-width: 736px) {
+    html {
+
+        padding: 0;
+        margin: 0;
+
+        font-family: 'Arvo', serif;
+    }
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #navbar-brick {
+        width: 100vw;
+        height: 10vh;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        text-align: center;
+
+        border-top-style: solid;
+        border-top-width: 1vw;
+        border-top-color: #8C001A;
+
+        background-color: #bf0023;
+
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+    }
+    .hidden-nav {
+        opacity: 0;
+    }
+    .shown-nav {
+        opacity: 1;
+    }
+
+    #navbar-logo {
+        font-size: 7vw;
+
+        color: #F17000;
+
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+    }
+
+    header {
+        text-align: center;
+        height: 100vh;
+
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 1vw;
+        border-color: #8C001A;
+
+        background-color: #ffde8c;
+    }
+    #pizza-title {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        font-size: 13vw;
+        margin-top: 5vh;
+        margin-bottom: 0;
+
+        color: #bf0023;
+    }
+    #pizza-sub {
+        font-family: 'Arvo', serif;
+        font-weight: 400;
+        font-size: 7vw;
+
+        color: #F19500;
+    }
+    #top-sub {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        font-size: 8vw;
+
+        color: #F17000;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    #pizza-list {
+        list-style: none;
+        padding: 0;
+        margin-top: 5vh;
+    }
+    .pizza-button {
+        text-align: center;
+        font-family: 'Arvo', serif;
+        font-weight: 500;
+        font-size: 6vw;
+        width: 43vw;
+        color: #F19500;
+        background-color: rgba(140, 0, 26, 1);
+
+        border-width: 0.75vw;
+        border-style: solid;
+        border-radius: 0;
+        border-color: #F19500;
+
+        padding: 2vw;
+        margin: 1vh;
+
+        outline: none;
+
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+        -moz-user-select: none;     /* Firefox all */
+        -ms-user-select: none;      /* IE 10+ */
+        user-select: none;          /* Likely future */
+
+        -webkit-transition: all 125ms ease-out;
+        -moz-transition: all 125ms ease-out;
+        -ms-transition: all 125ms ease-out;
+        -o-transition: all 125ms ease-out;
+        transition: all 125ms ease-out;
+    }
+    .pizza-button:active {
+        color: #F1B900;
+        background-color: rgba(140, 0, 26, 0.8);
+    }
+
+    #catering {
+        text-align: center;
+        height: 100vh;
+
+        background-color: #8C001A;
+    }
+    .cater-title {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        font-size: 10vw;
+        margin: 0;
+        padding-top: 11.5vh;
+
+        color: #F19500;
+    }
+
+    #gallery {
+        text-align: center;
+        height: 100vh;
+
+        background-color: #ffde8c;
+    }
+    .gallery-title {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        font-size: 11.5vw;
+        margin: 0;
+        padding-top: 11.5vh;
+
+        color: #8C001A;
+    }
+
+    #testimonials {
+        text-align: center;
+        height: 100vh;
+
+        background-color: #8C001A;
+    }
+    .testimonials-title {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        font-size: 11.5vw;
+        margin: 0;
+        padding-top: 11.5vh;
+
+        color: #F19500;
+    }
+
+    #contact-us {
+        text-align: center;
+        height: 100vh;
+
+        background-color: #ffde8c;
+    }
+    .contact-us-title {
+        font-family: 'Arvo', serif;
+        font-weight: 700;
+        font-size: 11.5vw;
+        margin: 0;
+        padding-top: 11.5vh;
+
+        color: #8C001A;
+    }
+
+    #topleft, #topright, #bottomleft, #bottomright {
+         height: 1vw;
+         width: 1vw;
+         position: fixed;
+         display: block;
+         z-index: 20;
+    }
+
+    #top, #bottom {
+         height: 1vw;
+         position: fixed;
+         left: 0;
+         right: 0;
+         display: block;
+         background-color: #bf0023;
+         z-index: 30
+    }
+    #left, #right {
+         width: 1vw;
+         position: fixed;
+         top: 0;
+         bottom: 0;
+         display: block;
+         background-color: #bf0023;
+         z-index: 50;
+    }
+
+    #top {
+        top: 0;
+    }
+    #bottom {
+        bottom: 0;
+    }
+    #left {
+        left: 0;
+    }
+    #right {
+        right: 0;
+    }
+    #topleft {
+        top: 0;
+        left: 0;
+    }
+    #topright {
+        top: 0;
+        right: 0;
+    }
+     #bottomleft {
+         bottom: 0;
+         left: 0;
+    }
+     #bottomright {
+         bottom: 0;
+         right: 0;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+        <title>Brick Oven Pizza</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/pizza.css">
+    </head>
+
+    <body>
+
+        <div id="top"></div>
+        <div id="topright"></div>
+        <div id="right"></div>
+        <div id="bottomright"></div>
+        <div id="bottom"></div>
+        <div id="bottomleft"></div>
+        <div id="left"></div>
+        <div id="topleft"></div>
+
+        <div id="navbar-brick" class="hidden-nav">
+            <ul>
+                <h1 id="navbar-logo">The Brick Oven Pizza</h1>
+            </ul>
+        </div>
+
+        <header>
+            <h1 id="pizza-title">THE BRICK OVEN PIZZA</h1>
+            <h1 id="top-sub">Pizza and Parlor</h1>
+            <h1 id="pizza-sub">147 Main St.</h1>
+            <h1 id="pizza-sub">Dobbs Ferry, New York</h1>
+            <h1 id="pizza-sub">914-693-6259</h1>
+
+            <ul id="pizza-list">
+                <li>
+                    <button class="pizza-button" onclick="window.open('http://www.thebrickovenpizza.com/Menu.aspx')">Order Now</button>
+                    <button id="cater-button" class="pizza-button" onclick="scrollTo('#catering')">Catering</button>
+                </li>
+                <li>
+                    <button class="pizza-button" onclick="window.open('https://goo.gl/maps/2e9fZCaBYpm')">Directions</button>
+                    <button class="pizza-button" onclick="scrollTo('#contact-us')">Contact Us</button>
+                </li>
+                <li>
+                    <button class="pizza-button" onclick="scrollTo('#gallery')">Gallery</button>
+                    <button id="testimonial-button" class="pizza-button" onclick="scrollTo('#testimonials')">Testimonials</button>
+                </li>
+            </ul>
+        </header>
+
+        <div id="catering">
+            <h1 class="cater-title">Catering Available!</h1>
+        </div>
+
+        <div id="gallery">
+            <h1 class="gallery-title">GALLERY</h1>
+        </div>
+
+        <div id="testimonials">
+            <h1 class="testimonials-title">TESTIMONIALS</h1>
+        </div>
+
+        <div id="contact-us">
+            <h1 class="contact-us-title">CONTACT US</h1>
+        </div>
+
+        <script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+        <script src="js/jquery.viewport.js" type="text/javascript"></script>
+
+        <script src="js/bop.js"></script>
+    </body>
+
+</html>
